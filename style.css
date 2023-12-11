@@ -37,14 +37,17 @@ margin-left: 500px;
     display: flex;
     justify-content: center;
     margin-top: 25px;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
       
 } 
 
-.caixa3 h2 {
+/* .caixa3 h2 {
 
     margin-right: 1050px;  
     
-}
+} */
 
 
 .box1 img {
