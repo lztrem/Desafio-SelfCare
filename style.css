@@ -6,11 +6,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    
-    height: 70vh;
-    
-}
 
 .caixa1 {
     display: flex;
@@ -29,19 +24,27 @@ margin-left: 500px;
 
 .caixa2 img {
     margin-top: 25px;
-    width: 1349px;
+    width: 100%;
     
 }
 
 .caixa3 {
     display: flex;
-    justify-content: center;
-    margin-top: 25px;
     justify-content: space-between;
     padding-left: 45px;
     padding-right: 45px;
+    height: 10vh;
+    /* border: solid 2px red; */
+    align-items: center;
       
 } 
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 /* .caixa3 h2 {
 
@@ -51,31 +54,32 @@ margin-left: 500px;
 
 
 .box1 img {
-    height: 200px;
+    width: 15vw;
+    display: block;
     
 }
 
 .conteiner1 {
-    /* border: solid 1px yellow;  */
+    /* border: solid 1px yellow;   */
     border-top: 1px solid gray;
-    margin-top: 90px;
     /* margin-left: 110px; */
-    width: 1349px;
+    width: 90%;
+    height: 200vh;
     display: flex;
     flex-wrap: wrap;
     border-bottom: 1px solid gray;
-    padding-bottom: 40px;
+    justify-content: space-around;
+    
     
 }
 
 .box1 {
     display: flex;
-    margin-left: 190px;
     flex-direction: column;
-    /* border: solid 1px rgb(9, 250, 238); */
-    height: 310px;
-    justify-content: space-between;
-    margin-top: 50px;
+    /* border: solid 1px rgb(9, 250, 238);  */
+    height: 60vh;
+    justify-content: space-around;
+    width: 25vw;
     
     
 }
@@ -109,7 +113,7 @@ span {
 
 figure {
     background-color: #5CA720;
-    height: 200px;
+    width: 15vw;
     border-radius: 4px;
 }
 .box1 img:hover{
@@ -124,8 +128,6 @@ a {
 }
 
 footer {
-
-    height: 50vh;
     background: #F9F9F9;
 
 }
@@ -145,7 +147,7 @@ form button{
 }
 .conteiner2 {
     display: flex;
-    /* border: solid 1px yellow; */
+    /* border: solid 1px yellow;  */
     height: 35vh;
     justify-content: center;
     align-items: center;
@@ -190,3 +192,68 @@ h3 {
     height: 20vh;
 }
 
+@media (max-width: 500px) {
+    .conteiner1 {
+        width: 80%;
+        height: 300vh;
+    }
+
+    .box1 {
+        width: 35vw;
+
+    }
+    
+    .principal {
+        height: 300vh;
+    }
+
+    .box1 img {
+        width: 30vw;
+    }
+
+    .box1 button {
+        width: 15vw;
+    }
+
+    .conteiner2 {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        padding-bottom: 50px;
+       
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input {
+
+        width: 80vw;
+        height: 8vh;
+        margin-bottom: 20px;
+    }
+
+    form button {
+        width: 80vw;
+        height: 8vh;
+    }
+    
+   .box2 {
+    /* border: solid 1px green; */
+    width: 80vw;
+    margin-right: 100px;
+    
+
+   }
+
+   .box3 {
+    /* border: solid 1px purple; */
+    margin-left: 70px;
+    
+    
+   }
+
+   
+}
